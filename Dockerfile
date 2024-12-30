@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Expose the proxy server port
-EXPOSE 5000
+EXPOSE 8000
 
 # Run the main script
 CMD ["python", "main.py"]

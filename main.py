@@ -4,7 +4,7 @@ import threading
 
 # Configuration
 PROXY_HOST = '127.0.0.1'  # Host for the proxy server
-PROXY_PORT = 5000       # Port for the proxy server
+PROXY_PORT = 8000       # Port for the proxy server
 DB_HOST = os.getenv("DB_HOST", "localhost")
 DB_PORT = os.getenv("DB_PORT", "5432")           # Port of the actual database server
 
